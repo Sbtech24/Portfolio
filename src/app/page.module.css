@@ -17,7 +17,7 @@
 
 .wrapper{
   display:grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: repeat(2, minmax(auto, 350px)) ;
   gap:20px;
   justify-content: center;
   margin: 0 auto;
