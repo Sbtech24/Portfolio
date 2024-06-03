@@ -12,6 +12,9 @@
     font-size: 16px;
     color: black;
 }
+.link:hover{
+    color: rgb(146, 146, 146);
+}
 
 .container{
     padding: 30px 0px;

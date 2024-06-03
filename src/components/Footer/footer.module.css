@@ -16,4 +16,7 @@
   color: #1d1d1d;
   padding: 10px;
 }
+.link:hover{
+  color: rgb(146, 146, 146);
+}
 

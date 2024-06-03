@@ -30,8 +30,8 @@ const Home = () => {
         <h1 className={styles.h1}>Featured projects</h1>
         <div className={styles.wrapper}>
        <Projects name="Dictionary web app" link="https://dictionary-web-app-liart.vercel.app/" desc="A dictionary web app built where users can search for words and it brings out the meaning " stack="ReactJs,Tailwind,Dictionary API." />
-       <Projects name="Dictionary web app" link="https://dictionary-web-app-liart.vercel.app/"/>
-       <Projects name="Dictionary web app" link="https://dictionary-web-app-liart.vercel.app/"/>
+       <Projects name="Countries app" link="https://dictionary-web-app-liart.vercel.app/"/>
+       <Projects name="Clippy" link="https://dictionary-web-app-liart.vercel.app/"/>
        </div>
       </section>
 
