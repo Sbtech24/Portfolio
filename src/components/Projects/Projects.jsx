@@ -13,7 +13,7 @@ const Projects = ({name,gitlink,desc,stack,link}) => {
           <div className={styles.box}>
           <div className={styles.projectHeader}>
             <h3 className='project-name'>{name}</h3>
-            <Link href="">
+            <Link href={gitlink}>
               <Image src={github} className={styles.git} />
             </Link>
           </div>
