@@ -13,8 +13,12 @@ const Home = () => {
       <section className={styles.heroContainer}>
         <div>
           <h1>Bajomo Oluwasemilore</h1>
-          <p>A frontend developer based in the city 
-<br/>of Lagos,Nigeria</p>
+          <p className={styles.paragraph}>A <span className={styles.span}> Software Engineer(frontend) </span>
+             I bring a solid foundation in <span className={styles.span}>creating user-friendly</span> and <span className={styles.span}>responsive web applications</span>.
+              I hold a Bachelor's degree in Computer Science.
+               I am passionate about crafting <span className={styles.span}>seamless user experiences</span> and continually learning new technologies to enhance my capabilities.
+          </p>
+         
         </div>
        <Image src={Hero}width={200} height={200} className={styles.img}/>
       </section>
@@ -30,7 +34,7 @@ const Home = () => {
         <h1 className={styles.h1}>Featured projects</h1>
         <div className={styles.wrapper}>
        <Projects name="Dictionary web app" link="https://dictionary-web-app-liart.vercel.app/" desc="A dictionary web app built where users can search for words and it brings out the meaning " stack="ReactJs,Tailwind,Dictionary API." gitlink="https://github.com/Sbtech24/Dictionary-web-app-"/>
-       <Projects name="Countries app" link="https://dictionary-web-app-liart.vercel.app/" gitlink=""/>
+       <Projects name="Country app" link="" desc="Country app is a web app displaying information about various countries in the world" stack="Reactjs,React-router,Javascript,Rest-countries-api" gitlink="https://github.com/Sbtech24/Countries"/>
        <Projects name="Clippy" link="https://dictionary-web-app-liart.vercel.app/"  gitlink=""/>
        </div>
       </section>

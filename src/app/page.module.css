@@ -10,7 +10,12 @@
 .h1{
   text-align: center;
 }
-
+.paragraph{
+  color: hsl(0, 0%, 45%);
+}
+.span{
+  color: hsl(0, 0%, 11%);
+}
 .toolsContainer{
   padding: 30px;
 }

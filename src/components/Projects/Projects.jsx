@@ -9,8 +9,7 @@ import Image from 'next/image'
 const Projects = ({name,gitlink,desc,stack,link}) => {
   return (
     <div className={styles.container}>
-        
-          <div className={styles.box}>
+        <div className={styles.box}>
           <div className={styles.projectHeader}>
             <h3 className='project-name'>{name}</h3>
             <Link href={gitlink}>
