@@ -14,8 +14,7 @@ const Navbar = () => {
           <div className={styles.spotify}>
           <Image src={spotify}/>
           <p>spotify</p>
-          </div>
-           
+          </div>    
            </Link>       
         </nav>
     </div>

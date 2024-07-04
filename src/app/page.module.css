@@ -30,6 +30,7 @@
   .heroContainer{
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
   .wrapper{
     grid-template-columns: 1fr;

@@ -26,3 +26,9 @@
     align-items: center;
     gap: 0.2rem;
 }
+@media(max-width:600px){
+    .nav{
+     padding: 20px;
+     
+    } 
+ }
