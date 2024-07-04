@@ -11,12 +11,18 @@
  
 } 
 
-
 .link{
   color: #1d1d1d;
   padding: 10px;
 }
 .link:hover{
   color: rgb(146, 146, 146);
+}
+
+@media(max-width:600px){
+  .container{
+    flex-direction: column;
+  }
+ 
 }
 
