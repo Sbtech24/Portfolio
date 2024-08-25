@@ -34,7 +34,7 @@ const Home = () => {
         <h1 className={styles.h1}>Featured projects</h1>
         <div className={styles.wrapper}>
        <Projects name="Dictionary web app" link="https://dictionary-web-app-liart.vercel.app/" desc="A dictionary web app built where users can search for words and it brings out the meaning " stack="ReactJs,Tailwind,Dictionary API." gitlink="https://github.com/Sbtech24/Dictionary-web-app-"/>
-       <Projects name="Country app" link="" desc="Country app is a web app displaying information about various countries in the world" stack="Reactjs,React-router,Javascript,Rest-countries-api" gitlink="https://github.com/Sbtech24/Countries"/>
+       <Projects name="Country app" link="https://loreys-countries-info-app.vercel.app/" desc="Country app is a web app displaying information about various countries in the world" stack="Reactjs,React-router,Javascript,Rest-countries-api" gitlink="https://github.com/Sbtech24/Countries"/>
        <Projects name="Sunny Side" link="https://sb-sunnyside.netlify.app/" desc="Sunny side landing page is a frontend mentor challenge built with html css and javascript" stack="Html,css and javascript" gitlink="https://github.com/Sbtech24/sunnyside"/>
        </div>
       </section>
