@@ -8,11 +8,9 @@ export const ThemeContext = createContext(undefined)
 
 export const ThemeProvider = ({children})=>{
    
-    const [theme,setTheme] = useState(localStorage.getItem("theme")||"light")
+    const [theme,setTheme] = useState("light")
 
     useEffect(()=>{
-
-        localStorage.setItem("theme",theme)
         document.documentElement.setAttribute("data-theme",theme)
     },[theme])
 
