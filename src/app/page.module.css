@@ -10,6 +10,7 @@
 }
 .paragraph{
   color: hsl(0, 0%, 45%);
+  
 }
 .span{
   color: hsl(0, 0%, 11%);
@@ -25,6 +26,12 @@
   justify-content: center;
   margin: 0 auto;
 }
+.img{
+  border-radius: 50%;
+}
+
+
+
 
 @media(max-width:600px){
   .heroContainer{
