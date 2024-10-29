@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import styles from "./navbar.module.css"
-
+import { SunIcon } from '@radix-ui/react-icons'
 import spotify from "/public/spotify.svg"
 import Image from 'next/image'
 import { useContext } from 'react'
@@ -16,7 +16,8 @@ const Navbar = () => {
     <div className={styles.container}>
         <nav className={styles.nav}>
            {/* <Link href="/" className={styles.link}>Lorey</Link> */}
-          <Image src={`/sun.svg`} width={20} height={20} alt='sun' onClick={toggleTheme} />
+          <SunIcon onClick={toggleTheme}/>
+          {/* <Image src={`/sun.svg`} width={20} height={20} alt='sun' onClick={toggleTheme} /> */}
            <Link href="spotify.com" className={styles.link} passHref={true}>
           <div className={styles.spotify}>
           <Image src={spotify}/>

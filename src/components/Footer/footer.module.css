@@ -12,8 +12,11 @@
 } 
 
 .link{
-  color: #1d1d1d;
+  color:var(--text-color);
   padding: 10px;
+}
+.link_dark{
+  color: white;
 }
 .link:hover{
   color: rgb(146, 146, 146);

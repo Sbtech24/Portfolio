@@ -26,7 +26,10 @@ const Home = () => {
         </p>
          
         </div>
-       <Image src={Hero}width={200} height={200} className={styles.img}/>
+        <div className={styles.img_container}>
+          <Image src={Hero}width={200} height={200} className={styles.img}/>
+            
+        </div>
       </section>
 
       <section className={styles.toolsContainer}>

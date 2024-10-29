@@ -1,8 +1,11 @@
-import React from 'react'
+"use client"
+
 import styles from "./footer.module.css"
 import { IconBrandTwitter,IconBrandLinkedin,IconBrandGithub } from '@tabler/icons-react';
 import Link from 'next/link';
+
 const Footer = () => {
+
   return (
     <footer className={styles.footer}>
       <div className={styles.container}>
