@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <div className="container">
         <Navbar/>
         {children}
+        <Analytics/>
         <Footer/>
         </div>
         </ThemeProvider>
